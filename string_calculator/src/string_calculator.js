@@ -9,8 +9,8 @@ StringCalculator.prototype.add = function(string_numbers) {
 			} else if (string_numbers[i] == 5) {
 				sum += 4;
 			}
-			return sum;
 		}
+		return sum;
     } else {
 		return "Invalid input";
 	} 
