@@ -17,4 +17,10 @@ describe('String Calculator', function() {
 	it('[ 6, 6, 4, 4, 1, 3 ] should return 2', function() {
 		expect(calculator.add([ 6, 6, 4, 4, 1, 3 ])).toEqual(2);
 	});
+
+	// TC_4
+	it('[ 3, 5, 3, 5, 4, 2 ] should return 12', function() {
+		expect(calculator.add([ 3, 5, 3, 5, 4, 2 ])).toEqual(12);
+	});
+	
 });
