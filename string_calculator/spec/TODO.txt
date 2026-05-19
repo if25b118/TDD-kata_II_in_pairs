@@ -13,4 +13,4 @@ Test cases
 4.  [ 3, 5, 3, 5, 4, 2 ]        -> 12                   OK
 
 Own chosen test case
-5.  [ 5, 4, 1, 3, 6 ]           -> 6                    
+5.  [ 5, 4, 1, 3, 6 ]           -> 6                    in progress

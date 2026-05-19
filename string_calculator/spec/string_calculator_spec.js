@@ -23,4 +23,8 @@ describe('String Calculator', function() {
 		expect(calculator.add([ 3, 5, 3, 5, 4, 2 ])).toEqual(12);
 	});
 	
+    // TC_5
+	it('[ 5, 4, 1, 3, 6 ] should return 6', function() {
+		expect(calculator.add([ 5, 4, 1, 3, 6 ])).toEqual(6);
+	});
 });
